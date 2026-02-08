@@ -31,7 +31,7 @@ const translations = {
         hono_title: "honor & Achievements",
         edu_degree: "Bachelor's in Computer Information Systems", edu_uni: "Taibah University, Madinah | May 2024", edu_honor: "First Class Honors (GPA: 4.94/5)",
         award_title: "2nd Place - Data Analysis for NPO", award_desc: "Built predictive model to classify non-profit organizations in Riyadh, identified development gaps, and delivered actionable insights.",
-        honor_title: "Sector Success Partner – Social Development", honor_desc: "Honored by the Assistant Director General for Social Development for contributions at the Will Makers Forum and the sector’s annual achievements ceremony.",
+        honor_title: "Sector Success Partner – Social Development", honor_desc: "Honored by the Branch Director General of the Ministry of Human Resources for contributions to the Will Makers Forum and the Annual Sector Achievements Ceremony.",
         skills_title: "Skills", skill_tech: "Languages & Tools", skill_bi: "Technical Skills", skill_soft: "Soft Skills",
         nav_contact: "Get In Touch",
         contact_status: "Open for freelance work, professional projects, and career opportunities.", btn_send: "Send Message"
@@ -55,7 +55,7 @@ const translations = {
         srv_sys: "تحليل النظم", srv_sys_desc: "تحليل ودراسة الأنظمة بفعالية",
         proj_1_title: "لوحة متابعة الأداء لمكتب مساعد المدير العام – قطاع التنمية", proj_1_client: "وزارة الموارد البشرية", proj_1_desc: "تصميم وتطوير لوحة أداء موحدة لمتابعة أعمال ومؤشرات قطاع التنمية، تم اعتمادها رسميًا للتقارير الاستراتيجية وعرضها في ملتقى صُنّاع الإرادة.",
         proj_2_title: "أتمتة أعمال لجنة الأيتام (إخاء)", proj_2_client: "وزارة الموارد البشرية", proj_2_desc: "تطوير نظام أتمتة متكامل لأعمال لجنة الأيتام (إخاء)، أسهم في تسريع معالجة الطلبات، تقليل الاعتماد على الإجراءات الورقية، والحد من الأخطاء الناتجة عن الإدخال اليدوي.",
-        proj_3_title: "نموذج تصنيف مستحقي الاسكان التنموي", proj_3_client: "وزارة الموارد البشرية", proj_3_desc: "بناء نموذج رياضي قائم على معايير واضحة لترتيب المستفيدين آليًا حسب الاستحقاق، بما يضمن العدالة وسرعة اتخاذ القرار.",
+        proj_3_title: "نموذج تصنيف مستحقي الدعم التنموي", proj_3_client: "وزارة الموارد البشرية", proj_3_desc: "بناء نموذج تقني قائم على معايير مقننة وعالمية لتصنيف المستفيدين حسب الأشد احتياجاً ، بما يضمن العدالة و سرعة اتخاذ القرار",
         proj_4_title: "تطبيق فلك", proj_4_client: "مشروع التخرج", proj_4_desc: "تطوير تطبيق ذكي يعتمد على تقنيات الذكاء الاصطناعي للتتبّع الفوري ودعم جهود العثور على الأطفال المفقودين من خلال التحليل التنبؤي والمشاركة المجتمعية.",
         proj_5_title: "منصة المدينة تبتكر", proj_5_client: "أمانة المدينة المنورة", proj_5_desc: "المشاركة في تطوير قاعدة البيانات وواجهة المستخدم وتحليل النظام من مرحلة الفكرة حتى الإطلاق، دعمًا لمنظومة الابتكار الرقمي في المدينة المنورة.",
         proj_6_title: "لوحة متابعة الأداء - وحدة التمكين", proj_6_client: "وزارة الموارد البشرية", proj_6_desc: "تصميم وتطوير لوحة متابعة أداء أسهمت في متابعة أعمال مكاتب الضمان الاجتماعي في المدينة المنورة وفروعها، ورصد مؤشرات الأداء وتحسين كفاءة تقديم الخدمات.",
@@ -69,7 +69,7 @@ const translations = {
         hono_title: "التكريم والإنجازات",
         edu_degree: "بكالوريوس نظم المعلومات الحاسوبية", edu_uni: "جامعة طيبة | مايو 2024", edu_honor: "مرتبة الشرف الأولى (4.94/5)",
         award_title: "المركز الثاني – مسابقة تحليل البيانات للمنظمات غير الربحية", award_desc: "تحليل بيانات وبناء نموذج لتصنيف المنظمات غير الربحية بالرياض، مع تقديم عرض لأهم النتائج ومناقشتها.",
-        honor_title: "التكريم كشريك نجاح لقطاع التنمية ", honor_desc: "التكريم من قبل مساعد المدير العام لقطاع التنمية الاجتماعية للمساهمات المقدمة في ملتقى صناع الإرادة والحفل السنوي لمنجزات القطاع.",
+        honor_title: "التكريم كشريك نجاح لقطاع التنمية ", honor_desc: "التكريم من قبل مدير عام فرع وزارة الموارد البشرية والتنمية الاجتماعية للمساهمات المقدمة في ملتقى صناع الإرادة والحفل السنوي لمنجزات القطاع.",
         skills_title: "المهارات ", skill_tech: "البرامج والأدوات", skill_bi: "المهارات التقنية", skill_soft: "المهارات الشخصية",
         nav_contact: "للتواصل معي",
         contact_status: "والتعاون في المشاريع المهنية والعمل الحر ومناقشة الفرص الوظيفية.", btn_send: "إرسال رسالة"
