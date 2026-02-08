@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basma Abdullah | Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="fixed-bg"></div> 
+    <div class="overlay-bg"></div>
+
+<nav class="navbar glass-effect">
+        <div class="container nav-wrapper">
+            <div class="logo-container nav-hidden-logo">
+                <div class="text-logo">Basma<span>.</span></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" data-i18n="nav_about">About</a></li>
+                <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                <li><a href="#experience" data-i18n="nav_exp">Experience</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="lang-btn" class="btn-glass-sm">عربي</button>
+                <div class="mobile-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav">
+        <span class="close-btn">&times;</span>
+        <ul>
+            <li><a href="#about" data-i18n="nav_about">About</a></li>
+            <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+            <li><a href="#experience" data-i18n="nav_exp">Experience</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <header class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <div class="hero-logo-wrapper">
+                    <img src="/images/logo.png" alt="Basma Logo" class="hero-big-logo circular-logo" onerror="this.style.display='none'; document.getElementById('fallback-logo').style.display='block';">
+                    <h1 id="fallback-logo" class="big-logo-text" style="display:none;">B<span>.</span></h1>
+                </div>
+
+                <div class="hero-text-wrapper">
+                    <h1 class="hero-main-name" data-i18n="hero_name">Eng. Basma Abdullah</h1>
+                    <h2 class="hero-titles-sub" data-i18n="hero_titles">Data Analyst & BI • Systems Analyst • Automation</h2>
+                    <p class="hero-bio" data-i18n="hero_bio">
+                        Data Analyst and BI Specialist, focusing on converting data into actionable insights to help improve processes and support digital transformation.
+                    </p>
+                    <div class="cta-group">
+                        <a href="#projects" class="btn btn-primary" data-i18n="btn_projects">My Projects</a>
+                        <a href="/Basma abdullah aljabri resume.pdf" class="btn btn-outline" data-i18n="btn_cv">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section id="about" class="section">
+        <div class="container">
+            <div class="merged-card glass-card fade-in-up">
+                
+                <div class="bio-side">
+                    <h2 class="section-heading-sm" data-i18n="who_am_i">Professional Profile</h2>
+                    
+                    <div class="bio-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">8+ 🚀</span>
+                            <span class="stat-label" data-i18n="stat_projects">Completed Projects</span>
+                        </div>
+                        <div class="vertical-line-small"></div>
+                        <div class="stat-item">
+                            <span class="stat-num">11 🌟</span>
+                            <span class="stat-label" data-i18n="stat_exp">Months Experience</span>
+                        </div>
+                        <div class="vertical-line-small"></div>
+                        <div class="stat-item">
+                        <span class="stat-num">5+ 🎖️</span>                            
+                        <span class="stat-label" data-i18n="stat_certs">Certifications</span>
+                        </div>
+                    </div>
+
+                    <div class="bio-text">
+                        <p data-i18n="about_desc_1">
+                            Collaborative Data Analyst & BI Specialist with extensive experience in System Analysis and Automation. 
+                            Highly skilled in leveraging Python, SQL, and Advanced Excel for complex data modeling.
+                        </p>
+                        <p data-i18n="about_desc_2" class="mt-2">
+                            I specialize in reducing processing times and streamlining workflows using the Microsoft Power Platform.
+                            My goal is to deliver data-driven insights that support digital transformation goals.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="vertical-divider"></div>
+
+                <div class="services-side">
+                    <h3 class="section-heading-sm" data-i18n="services_title">Services Provided</h3>
+                    
+                    <div class="services-vertical-list">
+                        <div class="srv-mini-item">
+                            <div class="icon-box" ><i class="fas fa-chart-pie"></i></div>
+                            <div class="srv-text">
+                                <h4 data-i18n="srv_data">Data Analysis</h4>
+                                <span data-i18n="srv_data_desc">Data Modeling, Cleaning & Insights Extraction</span>
+                            </div>
+                        </div>
+                        <div class="srv-mini-item">
+                            <div class="icon-box"><i class="fas fa-tachometer-alt"></i></div>
+                            <div class="srv-text">
+                                <h4 data-i18n="srv_bi">BI Visualization</h4>
+                                <span data-i18n="srv_bi_desc">Interactive Dashboards using Power BI</span>
+                            </div>
+                        </div>
+                        <div class="srv-mini-item">
+                            <div class="icon-box"><i class="fas fa-robot"></i></div>
+                            <div class="srv-text">
+                                <h4 data-i18n="srv_auto">Automation</h4>
+                                <span data-i18n="srv_auto_desc">Workflow Optimization via Power Automate</span>
+                            </div>
+                        </div>
+                        <div class="srv-mini-item">
+                            <div class="icon-box"><i class="fas fa-code"></i></div>
+                            <div class="srv-text">
+                                <h4 data-i18n="srv_sys">System Analysis</h4>
+                                <span data-i18n="srv_sys_desc">Technical Systems Design & Requirement Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 data-i18n="nav_projects">Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="projects-flex-container">
+                <div class="project-item glass-card fade-in-up">
+                    <div class="card-img gradient-1"> 
+                        <a href="images/sector office dashboard.jpeg" data-lightbox="projects" data-title="Assistant Director General Performance Dashboard">
+                            <img src="images/sector office dashboard.jpeg" alt="Project Image" class="project-img-full">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_1_title">Assistant Director General Performance Dashboard</h3>
+                        <div class="project-meta"><span><i class="far fa-building"></i> <span data-i18n="proj_1_client">Ministry of Human Resources</span></span><span>2025</span></div>
+                        <p data-i18n="proj_1_desc">Designed and developed a centralized executive dashboard for monitoring sector KPIs, officially adopted for strategic reporting and presented at the Will Makers Forum.</p>
+                        <div class="tech-tags"><span>Power BI</span><span>Excel</span><span>MS Form</span></div>
+                    </div>
+                </div>
+
+                <div class="project-item glass-card fade-in-up delay-1">
+                    <div class="card-img gradient-3">
+                        <a href="images/ekhaa.png" data-lightbox="projects" data-title="Ekhaa Automation System">
+                            <img src="images/ekhaa.png" alt="Project Image" class="project-img-full">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_2_title">Ekhaa Automation System</h3>
+                        <div class="project-meta"><span><i class="far fa-building"></i> <span data-i18n="proj_2_client">Ministry of HR</span></span><span>2025</span></div>
+                        <p data-i18n="proj_2_desc">Fully automated paperless workflow reducing time to seconds.</p>
+                        <div class="tech-tags"><span>Power Automate</span><span>SharePoint</span><span>MS 365</span></div>
+                    </div>
+                </div>
+
+                <div class="project-item glass-card fade-in-up delay-2">
+                    <div class="card-img gradient-1">
+                        <a href="images/empowerment dashboard.jpeg" data-lightbox="projects" data-title="Empowerment Dashboard">
+                            <img src="images/empowerment dashboard.jpeg" alt="Project Image" class="project-img-full">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_6_title">Empowerment Dashboard</h3>
+                        <div class="project-meta"><span><i class="far fa-building"></i> <span data-i18n="proj_6_client">Ministry of HR</span></span><span>2025</span></div>
+                        <p data-i18n="proj_6_desc">Tracking system for Social Security Offices to improve service delivery.</p>
+                        <div class="tech-tags"><span>Power BI</span><span>Excel</span></div>
+                    </div>
+                </div>
+
+                <div class="project-item glass-card fade-in-up">
+                    <div class="card-img gradient-2">
+                        </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_3_title">Housing Eligibility Model</h3>
+                        <div class="project-meta"><span><i class="far fa-building"></i> <span data-i18n="proj_3_client">Ministry of HR</span></span><span>2025</span></div>
+                        <p data-i18n="proj_3_desc">Mathematical scoring model to automate beneficiary ranking.</p>
+                        <div class="tech-tags"><span>Advance Excel</span></div>
+                    </div>
+                </div>
+
+                <div class="project-item glass-card fade-in-up delay-1">
+                    <div class="card-img gradient-2">
+                        <a href="images/falak.jpg" data-lightbox="projects" data-title="Falak App (AI Tracker)">
+                            <img src="images/falak.jpg" alt="Project Image" class="project-img-full">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_4_title">Falak App (AI Tracker)</h3>
+                        <div class="project-meta"><span><i class="far fa-user"></i> <span data-i18n="proj_4_client">Personal</span></span><span>2024</span></div>
+                        <p data-i18n="proj_4_desc">AI-powered app for locating lost children utilizing real-time tracking.</p>
+                        <div class="tech-tags"><span>Flutter</span><span>Python</span><span>SQL</span><span>C#</span></div>
+                    </div>
+                </div>
+
+                <div class="project-item glass-card fade-in-up delay-2">
+                    <div class="card-img gradient-3">
+                        <a href="images/med-tech.png" data-lightbox="projects" data-title="Madinah Innovation Platform">
+                            <img src="images/med-tech.png" alt="Project Image" class="project-img-full">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_5_title">Madinah Innovation Platform</h3>
+                        <div class="project-meta"><span><i class="far fa-building"></i> <span data-i18n="proj_5_client">Municipality</span></span><span>2025</span></div>
+                        <p data-i18n="proj_5_desc">Co-developed the platform's full stack (Database & UI).</p>
+                        <div class="tech-tags"><span>SQL</span><span>HTML</span><span>System Analysis</span><span>UI/UX</span></div>
+                    </div>
+                </div>
+
+                <div class="project-item glass-card fade-in-up delay-1">
+                    <div class="card-img gradient-2">
+                        <a href="images/non-profit project.png" data-lightbox="projects" data-title="Riyadh Non-Profit Organizations Data Analysis">
+                            <img src="images/non-profit project.png" alt="Project Image" class="project-img-full">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_9_title">Riyadh Non-Profit Organizations Data Analysis</h3>
+                        <div class="project-meta"><span><i class="far fa-building"></i> <span data-i18n="proj_9_client">Personal project</span></span><span>2024</span></div>
+                        <p data-i18n="proj_9_desc">Analyzed data of non-profit organizations in Riyadh and built a predictive classification model to identify development gaps and deliver actionable insights.</p>
+                        <div class="tech-tags"><span>python</span><span>MS Excel</span></div>
+                    </div>
+                </div>                
+                
+                <div class="project-item glass-card fade-in-up">
+                    <div class="card-img gradient-1">
+                        <a href="images/amana stratigic dashboard.jpeg" data-lightbox="projects" data-title="Digital Initiatives Dashboard">
+                            <img src="images/amana stratigic dashboard.jpeg" alt="Project Image" class="project-img-full">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_7_title">Digital Initiatives Dashboard</h3>
+                        <div class="project-meta"><span><i class="far fa-building"></i> <span data-i18n="proj_7_client">Municipality</span></span><span>2024</span></div>
+                        <p data-i18n="proj_7_desc">Visualizing the progress of municipal digital transformation initiatives.</p>
+                        <div class="tech-tags"><span>Power BI</span><span>Excel</span><span>Digital Transformation</span></div>
+                    </div>
+                </div>
+
+                <div class="project-item glass-card fade-in-up delay-1">
+                    <div class="card-img gradient-2">
+                        <a href="images/IT dashboard.jpeg" data-lightbox="projects" data-title="IT Performance Analysis">
+                            <img src="images/IT dashboard.jpeg" alt="Project Image" class="project-img-full">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3 data-i18n="proj_8_title">IT Performance Analysis</h3>
+                        <div class="project-meta"><span><i class="far fa-building"></i> <span data-i18n="proj_8_client">Municipality</span></span><span>2024</span></div>
+                        <p data-i18n="proj_8_desc">Comprehensive analysis of IT reports to identify performance gaps.</p>
+                        <div class="tech-tags"><span>Power BI</span><span>MS Excel</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header fade-in-up"><h2 data-i18n="nav_exp">Professional Experience</h2><div class="line"></div></div>
+            <div class="compact-timeline">
+                
+                <div class="timeline-row fade-in-up">
+                    <div class="t-date">Oct 2025 - Dec 2025</div>
+                    <div class="t-marker"></div>
+                    <div class="t-content glass-card">
+                        <h3>
+                            <span data-i18n="exp_1_title">Data Analyst & BI Specialist</span>
+                            <a href="https://drive.google.com/file/d/1qnMOv5fcgWycR_0trmgnVk6CXsC_Z6GX/view?usp=sharing" target="_blank" class="icon-link" title="View Certificate"><i class="fas fa-paperclip"></i></a>
+                        </h3>
+                        <h4 data-i18n="exp_1_org">Ministry of Human Resources</h4>
+                        <p data-i18n="exp_1_desc">Led digital transformation projects, automating workflows and building KPI dashboards.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-row fade-in-up">
+                    <div class="t-date">Aug 2024 - Feb 2025</div>
+                    <div class="t-marker"></div>
+                    <div class="t-content glass-card">
+                        <h3>
+                            <span data-i18n="exp_2_title">Information Systems Analyst</span>
+                            <a href="https://drive.google.com/file/d/1zG5ZdcjDGkjMIivHQZ-j99c0Rsamn-Wl/view?usp=sharing" target="_blank" class="icon-link" title="View Certificate"><i class="fas fa-paperclip"></i></a>
+                        </h3>
+                        <h4 data-i18n="exp_2_org">Medina Regional Municipality</h4>
+                        <p data-i18n="exp_2_desc">Updated Digital Transformation Strategy (2027), co-developed Innovation Platform.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-row fade-in-up">
+                    <div class="t-date">Jan 2024 - Feb 2024</div>
+                    <div class="t-marker"></div>
+                    <div class="t-content glass-card">
+                        <h3>
+                            <span data-i18n="exp_3_title">COOP Trainee</span>
+                            <a href="https://drive.google.com/file/d/1JCGZCNF8jh7nQKlWL-zSVonXTs64i3s9/view?usp=sharing" target="_blank" class="icon-link" title="View Certificate"><i class="fas fa-paperclip"></i></a>
+                        </h3>
+                        <h4 data-i18n="exp_3_org">Medina Regional Municipality</h4>
+                        <p data-i18n="exp_3_desc">Analyzed IT report datasets to create visualizations and assisted in system analysis.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container equal-height-grid">
+            <div class="col-box glass-card fade-in-up">
+                <h3 class="box-title" data-i18n="edu_title">Education</h3>
+                
+                <div class="inner-list">
+                    
+                    <div class="list-item">
+                        <div class="icon-box-fixed">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="list-text">
+                            <h4>
+                                <span data-i18n="edu_degree">Bachelor's in CIS</span>
+                                <a href="https://drive.google.com/file/d/1T_U_zztt4vym-LNmhhzCu-A7kx1CuquM/view?usp=sharing" target="_blank" class="icon-link" title="View Degree"><i class="fas fa-paperclip"></i></a>
+                            </h4>
+                            <p data-i18n="edu_uni">Taibah University | May 2024</p>
+                            <span class="highlight" data-i18n="edu_honor">First Class Honors (4.94/5)</span>
+                        </div>
+                    </div>
+                
+                    <div class="horizontal-divider"></div>
+                </div>
+
+                <h3 class="box-title" data-i18n="hono_title">honor & Achievements</h3>
+                <div class="inner-list">
+                    
+                    <div class="list-item">
+                        <div class="icon-box-fixed">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="list-text">
+                            <h4>
+                                <span data-i18n="award_title">2nd Place – Data Analysis Competition for NPOs</span>
+                                <a href="https://drive.google.com/file/d/1ZDbCg1p1MOyAxM0qttZ0qVtQdDRaVRBR/view?usp=sharing" target="_blank" class="icon-link" title="View Award"><i class="fas fa-paperclip"></i></a>
+                            </h4>
+                            <p data-i18n="award_desc" class="desc-text">Analyzed data and built a model to classify non-profit organizations in Riyadh, presenting key findings and discussing them.</p>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <div class="icon-box-fixed">
+                            <i class="fas fa-medal"></i> 
+                        </div>
+                        <div class="list-text">
+                            <h4>
+                                <span data-i18n="honor_title">Sector Success Partner – Social Development</span>
+                                <a href="https://drive.google.com/file/d/1GfW51JNWlfrhf0Ccqhmf9RtfIbeQ_iDO/view?usp=sharing" target="_blank" class="icon-link" title="View Award"><i class="fas fa-paperclip"></i></a>
+                            </h4>
+                            <p data-i18n="honor_desc" class="desc-text">Honored by the Assistant Director General for Social Development for contributions at the Will Makers Forum and the sector’s annual achievements ceremony.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-box glass-card fade-in-up delay-1"><h3 class="box-title" data-i18n="skills_title">Technical Skills</h3><div class="skills-layout"><div class="s-group"><h5 data-i18n="skill_tech">Languages & Tools</h5><div class="tags"><span class="tag">Python</span><span class="tag">Power BI</span><span class="tag">SQL</span><span class="tag">Advanced Excel</span><span class="tag">Power Automate</span><span class="tag">HTML/CSS/js/Bootstrap</span><span class="tag">Figma</span><span class="tag">Asp.net API</span><span class="tag">C#</span></div></div><div class="s-group"><h5 data-i18n="skill_bi">Technical Skills</h5><div class="tags"><span class="tag">Data Analysis</span><span class="tag">Business Intelligence</span><span class="tag">Systems Analysis</span><span class="tag">Process Automation</span><span class="tag">App Development</span><span class="tag">Dashboard Design</span></div></div><div class="s-group"><h5 data-i18n="skill_soft">Soft Skills</h5><div class="tags"><span class="tag outline">Problem Solving</span><span class="tag outline">Strategic Planning</span><span class="tag outline">Communication</span><span class="tag outline">Team Collaboration</span><span class="tag outline">Negotiation</span><span class="tag outline">Presentation Skills</span></div></div></div></div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-split-card glass-card fade-in-up">
+                <div class="contact-left">
+                    <h2 data-i18n="nav_contact">Get In Touch</h2>
+                    <p class="contact-sub" data-i18n="contact_status">I'm available for freelance work and job opportunities.</p>
+                    
+                    <div class="contact-items-list">
+                        <a href="mailto:Basma1alharbi1@gmail.com" class="c-item">
+                            <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                            <span>Basma1alharbi1@gmail.com</span>
+                        </a>
+                        <a href="tel:+966557954167" class="c-item">
+                            <div class="icon-circle"><i class="fas fa-phone"></i></div>
+                            <span>+966 55 795 4167</span>
+                        </a>
+                    </div>
+
+                    <div class="social-row-left ">
+                        <a href="https://www.linkedin.com/in/basma-abdullah" target="_blank"><i class="fab fa-linkedin icon-circle"></i></a>
+                        <a href="https://github.com/basma-abdullah" target="_blank"><i class="fab fa-github icon-circle"></i></a>
+                    </div>
+                </div>
+
+                <form id="contact-form-right" class="contact-form-right" action="https://formspree.io/f/xkozepvo" method="POST">
+                    <h3 data-i18n="btn_send">Send Message</h3>
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" class="glass-input" placeholder="Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" name="email" class="glass-input" placeholder="Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea name="message" class="glass-input" rows="4" placeholder="Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary full-width-btn" data-i18n="btn_send">Send Message</button>
+                    
+                    <p id="form-status" class="form-status-msg"></p>
+                </form>
+            </div>
+            <footer><p>&copy; 2026 Basma Abdullah.</p></footer>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
