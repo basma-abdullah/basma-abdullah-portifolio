@@ -302,11 +302,3 @@ html[lang="ar"] .icon-link { margin-left: 0; margin-right: 10px; }
     flex-shrink: 0;  /* هذا الأمر يمنع الأيقونة من الانكماش مهما كان النص طويلاً */
 }
 
-/* --- تكبير إضافي خاص للجوال فقط (اختياري) --- */
-@media (max-width: 768px) {
-    .icon-circle {
-        width: 55px;       /* تكبير الدائرة */
-        height: 55px;
-        font-size: 1.4rem; /* تكبير الرمز داخلها */
-    }
-}
