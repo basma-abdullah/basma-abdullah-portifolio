@@ -258,6 +258,9 @@ html[lang="ar"] .mobile-nav { right: auto; left: 0; }
     .t-marker { display: none; }
     .btn{font-size: 0.7rem;}
     .glass-input{width: 100%;}
+    .card-body h3{font-size: 1.12rem;}
+    .srv-text span{font-size: 0.8rem;}
+    .t-content h3{font-size: 1.05rem;}
     /* تمت إزالة التعديل السابق ليعود الزر والقائمة متجاورين */
 }
 
